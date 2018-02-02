@@ -1,7 +1,7 @@
 function Person() {
   return React.createElement(
     'div',
-    { 'class': 'Person' },
+    { className: 'person' },
     React.createElement(
       'h1',
       null,
@@ -16,3 +16,4 @@ function Person() {
 }
 
 ReactDOM.render(React.createElement(Person, null), document.querySelector('#p1'));
+ReactDOM.render(React.createElement(Person, null), document.querySelector('#p2'));

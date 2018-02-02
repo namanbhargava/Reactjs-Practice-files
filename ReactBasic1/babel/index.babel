@@ -1,6 +1,6 @@
 function Person(){
   return(
-    <div class='Person'>
+    <div className='person'>
       <h1>Max</h1>
       <p>Your Age:28</p>
     </div>
@@ -8,3 +8,4 @@ function Person(){
 }
 
 ReactDOM.render(<Person />, document.querySelector('#p1'));
+ReactDOM.render(<Person />, document.querySelector('#p2'));
